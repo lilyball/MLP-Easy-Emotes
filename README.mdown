@@ -1,0 +1,6 @@
+MLP Easy Emotes
+===============
+
+Port of [MLP Easy Emotes][iqces] to Safari.
+
+[iqces]: http://www.reddit.com/r/mylittlepony/comments/iqces/introducing_easy_emotes/
