@@ -48,6 +48,8 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://github.com/kballard/MLP-Easy-Emotes/raw/master/update.plist</string>
 	<key>Website</key>
 	<string>http://redd.it/iqces</string>
 </dict>
