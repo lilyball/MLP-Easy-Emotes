@@ -112,4 +112,3 @@ var ponyEmotes = {
 };
 
 ponyEmotes.init();
-
