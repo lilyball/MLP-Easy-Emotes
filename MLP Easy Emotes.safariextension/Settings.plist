@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Additional Includes</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>showInAllSubreddits</string>
+		<key>Title</key>
+		<string>Allow Easy Emotes to run on all subreddits</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>showInMessagingCenter</string>
+		<key>Title</key>
+		<string>Show Easy Emotes in the messaging center</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Functionality changes</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>bundleMyRedditPonies</string>
+		<key>Title</key>
+		<string>Bundle My Reddit Ponies</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>autoCloseEmoteList</string>
+		<key>Title</key>
+		<string>Auto-close emote list</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>makeVisibleAlways</string>
+		<key>Title</key>
+		<string>Always show emote toggle</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Style changes</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>19</real>
+		<key>Key</key>
+		<string>togglerOffset</string>
+		<key>Title</key>
+		<string>How far down should the toggle be</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>130</real>
+		<key>Key</key>
+		<string>panelWidth</string>
+		<key>Title</key>
+		<string>How wide should the emotes panel be</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>250</real>
+		<key>Key</key>
+		<string>panelHeight</string>
+		<key>Title</key>
+		<string>How tall should the emotes panel be</string>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+</array>
+</plist>
