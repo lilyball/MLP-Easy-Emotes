@@ -29,6 +29,26 @@
 		<string>CheckBox</string>
 	</dict>
 	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>allInternet</string>
+		<key>Title</key>
+		<string>Run on all of the internet</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>synchtube</string>
+		<key>Title</key>
+		<string>Run on the Synchtube Channel</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
 		<key>Title</key>
 		<string>Functionality changes</string>
 		<key>Type</key>

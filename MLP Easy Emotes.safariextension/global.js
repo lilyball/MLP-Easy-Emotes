@@ -11,7 +11,8 @@ function calculatePreferences() {
     zIndex: (safari.extension.settings.makeVisibleAlways ? 9999 : 99),
     lineOffset: parseInt(safari.extension.settings.togglerOffset),
     width: parseInt(safari.extension.settings.panelWidth),
-    height: parseInt(safari.extension.settings.panelHeight)
+    height: parseInt(safari.extension.settings.panelHeight),
+    ignoreLogin: safari.extension.settings.allInternet || safari.extension.settings.synchtube
   };
   return prefs;
 }
@@ -46,6 +47,8 @@ var defaultSubreddits = [
   "MLPdrawingschool",
   "parasprites"
 ];
+var allInternetPatterns = ["http://*", "https://*"];
+var synchtubePatterns = ["http://*.synchtube.com/r/RedditBronies", "http://*.synchtube.com/r/RedditBronies#"];
 function whitelist() {
   var results = [];
   if (safari.extension.settings.showInAllSubreddits) {
@@ -63,6 +66,16 @@ function whitelist() {
     // also run on user pages if we're bundling My Reddit Ponies
     results.push(userPagePattern);
   }
+  if (safari.extension.settings.allInternet) {
+    for (var i = 0; i < allInternetPatterns; i++) {
+      results.push(allInternetPatterns[i]);
+    }
+  }
+  if (safari.extension.settings.synchtube) {
+    for (var i = 0; i < synchtubePatterns; i++) {
+      results.push(synchtubePatterns[i]);
+    }
+  }
   return results;
 }
 
@@ -71,6 +84,8 @@ safari.extension.settings.addEventListener("change", function(event) {
     case "showInAllSubreddits":
     case "showInMessagingCenter":
     case "bundleMyRedditPonies":
+    case "allInternet":
+    case "synchtube":
       inject();
       break;
     case "togglerOffset":
