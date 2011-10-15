@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>RogueDarkJedi</string>
 	<key>Builder Version</key>
-	<string>7534.48.3</string>
+	<string>7534.51.22</string>
 	<key>CFBundleDisplayName</key>
 	<string>MLP Easy Emotes</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.8</string>
+	<string>5.0</string>
 	<key>CFBundleVersion</key>
-	<string>3.8</string>
+	<string>5.0</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>

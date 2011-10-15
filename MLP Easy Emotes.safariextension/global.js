@@ -45,7 +45,9 @@ var defaultSubreddits = [
   "mylittlenosleep",
   "mylittlerepost",
   "MLPdrawingschool",
-  "parasprites"
+  "parasprites",
+  "mylittlerage",
+  "ainbowdash"
 ];
 var allInternetPatterns = ["http://*", "https://*"];
 var synchtubePatterns = ["http://*.synchtube.com/r/RedditBronies", "http://*.synchtube.com/r/RedditBronies#"];

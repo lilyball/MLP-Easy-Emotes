@@ -3,7 +3,7 @@ MLP Easy Emotes
 
 Port of [MLP Easy Emotes][iqces] to Safari.
 
-The current version is v3.8: [Download it now][download]
+The current version is v5.0: [Download it now][download]
 
 [iqces]: http://www.reddit.com/r/mylittlepony/comments/iqces/introducing_easy_emotes/
-[download]: https://github.com/downloads/kballard/MLP-Easy-Emotes/MLP-Easy-Emotes-3.8.safariextz
+[download]: https://github.com/downloads/kballard/MLP-Easy-Emotes/MLP-Easy-Emotes-5.0.safariextz
