@@ -47,7 +47,21 @@ var defaultSubreddits = [
   "MLPdrawingschool",
   "parasprites",
   "mylittlerage",
-  "ainbowdash"
+  "ainbowdash",
+  "idliketobeatree",
+  "mylittleWTF",
+  "Fluttershy",
+  "Applejack",
+  "ponypapers",
+  "MLPtunes",
+  "newlunarrepublic",
+  "mylittleponyproblems",
+  "mylittle3dpony",
+  "educationalponies",
+  "mylittleportals",
+  "mylittlefortress",
+  "mylittlefanfic",
+  "mylittleminecraft"
 ];
 var allInternetPatterns = ["http://*", "https://*"];
 var synchtubePatterns = ["http://*.synchtube.com/r/RedditBronies", "http://*.synchtube.com/r/RedditBronies#"];
