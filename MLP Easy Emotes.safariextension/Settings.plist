@@ -49,6 +49,16 @@
 		<string>CheckBox</string>
 	</dict>
 	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>showInIRC</string>
+		<key>Title</key>
+		<string>Run on the IRC</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
 		<key>Title</key>
 		<string>Functionality changes</string>
 		<key>Type</key>

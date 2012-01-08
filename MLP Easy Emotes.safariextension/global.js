@@ -12,7 +12,7 @@ function calculatePreferences() {
     lineOffset: parseInt(safari.extension.settings.togglerOffset),
     width: parseInt(safari.extension.settings.panelWidth),
     height: parseInt(safari.extension.settings.panelHeight),
-    ignoreLogin: safari.extension.settings.allInternet || safari.extension.settings.synchtube
+    ignoreLogin: safari.extension.settings.allInternet || safari.extension.settings.synchtube || safari.extension.settings.showInIRC
   };
   return prefs;
 }
@@ -61,10 +61,13 @@ var defaultSubreddits = [
   "mylittleportals",
   "mylittlefortress",
   "mylittlefanfic",
-  "mylittleminecraft"
+  "mylittleminecraft",
+  "mylittledaww",
+  "MLPLounge",
 ];
 var allInternetPatterns = ["http://*", "https://*"];
-var synchtubePatterns = ["http://*.synchtube.com/r/RedditBronies", "http://*.synchtube.com/r/RedditBronies#"];
+var synchtubePattern = "http://*.synchtube.com/*";
+var IRCPattern = "http://webchat.freenode.net/*";
 function whitelist() {
   var results = [];
   if (safari.extension.settings.showInAllSubreddits) {
@@ -88,9 +91,10 @@ function whitelist() {
     }
   }
   if (safari.extension.settings.synchtube) {
-    for (var i = 0; i < synchtubePatterns; i++) {
-      results.push(synchtubePatterns[i]);
-    }
+    results.push(synchtubePattern);
+  }
+  if (safari.extension.settings.showInIRC) {
+    results.push(IRCPattern);
   }
   return results;
 }
@@ -102,6 +106,7 @@ safari.extension.settings.addEventListener("change", function(event) {
     case "bundleMyRedditPonies":
     case "allInternet":
     case "synchtube":
+    case "showInIRC":
       inject();
       break;
     case "togglerOffset":
