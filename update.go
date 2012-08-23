@@ -19,7 +19,7 @@ import (
 	"sort"
 )
 
-const easyEmotesGen = "http://gamespotting.net/sandbox/gen/mlpeasyemotes.user.js?safariInit=on&vertOffset=&width=&height=&shouldGen=true&generate=mlpeasyemotes.user.js"
+const easyEmotesGen = "http://gamespotting.net/sandbox/easyEmotesGen.php?safariInit=on&vertOffset=&width=&height=&shouldGen=true&generate=mlpeasyemotes.user.js"
 const extensionFolder = "MLP Easy Emotes.safariextension"
 const updatePath = "update.plist"
 const downloadFormatURL = "https://github.com/downloads/kballard/MLP-Easy-Emotes/MLP-Easy-Emotes-%s.safariextz"
