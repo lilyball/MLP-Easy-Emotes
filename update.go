@@ -30,6 +30,8 @@ var (
 )
 
 func main() {
+	log.SetFlags(0)
+	log.SetPrefix("fatal: ")
 	_, includes, err := parseScript()
 	if err != nil {
 		log.Fatalln(err)
